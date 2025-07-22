@@ -1,58 +1,72 @@
-<h1 align="center">Hi 👋, I'm Latif Rusdi</h1>
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&color=00E0FF&center=true&vCenter=true&width=435&lines=Frontend+Developer+2025;AI+Assistant+Builder;Interactive+Web+Design+Lover;Gamer+and+Thinker" alt="Typing SVG" />
-</p>
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=Larusdi.Larusdi" />
 
-<p align="center">
-  <a href="https://www.youtube.com/@29_latif" target="_blank"><img src="https://img.shields.io/badge/YouTube-%23282c34?logo=youtube&logoColor=red&style=for-the-badge"/></a>
-  <a href="https://www.instagram.com/29_larusdi" target="_blank"><img src="https://img.shields.io/badge/Instagram-%23282c34?logo=instagram&logoColor=pink&style=for-the-badge"/></a>
-  <a href="https://www.tiktok.com/@29_latif" target="_blank"><img src="https://img.shields.io/badge/TikTok-%23282c34?logo=tiktok&logoColor=white&style=for-the-badge"/></a>
-  <a href="mailto:latifrusdi15@gmail.com"><img src="https://img.shields.io/badge/Email-%23282c34?logo=gmail&logoColor=white&style=for-the-badge"/></a>
-</p>
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Latif+Rusdi!;" />
+</h1>
 
----
+<h3 align="center">A passionate frontend developer and creative builder from Indonesia 🇮🇩</h3>
 
-### 🚀 About Me
-
-- 🔭 I’m currently building **premium portfolios, interactive games, and AI Assistants**
-- 🌱 I’m currently learning: `AI Design`, `Flutter`, `Web Animation`
-- 👯 I’m open to collaborating on fun & meaningful web projects!
-- 💬 Ask me about: **HTML, CSS, JS, Chatbot, Frontend Design**
-- ⚡ Fun Fact: I love combining technology with creativity!
-
----
-
-### 🛠️ My Favorite Tools
-![HTML](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![VS Code](https://img.shields.io/badge/-VSCode-007ACC?style=flat-square&logo=visualstudiocode)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
-
----
-
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Larusdi&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="49%"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Larusdi&theme=tokyonight&hide_border=true" width="49%" />
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Larusdi&label=Profile%20views&color=blue&style=flat" alt="Larusdi" />
-</p>
-
----
-
-### 💬 Contact Me
-
-- 📧 **Email**: latifrusdi15@gmail.com  
-- 📱 **WhatsApp**: [Chat](https://wa.me/6282389160273)  
-- 📸 **Instagram**: [@29_larusdi](https://www.instagram.com/29_larusdi)  
-- 🎵 **TikTok**: [@29_latif](https://www.tiktok.com/@29_latif)
-
----
+<br/>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0072ff&height=100&section=footer"/>
+
+ 🔭 I’m currently building **AI Assistant, Mini Games & Premium Websites**
+
+ 🌱 I’m learning **Flutter, Dart, Chatbot Frameworks**
+
+💬 Ask me about **HTML, CSS, JS, Portfolio Design, or Chatbot AI**
+
+⚡ Fun fact: **Most futuristic web designs are inspired by sci-fi movies**
+
 </div>
+
+<div align="center"> 
+  <a href="mailto:latifrusdi15@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" />
+  </a>
+  <a href="https://www.instagram.com/29_larusdi" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+  </a>
+  <a href="https://www.tiktok.com/@29_latif" target="_blank">
+     <img src="https://img.shields.io/badge/TikTok-black?style=for-the-badge&logo=tiktok&logoColor=white" />
+  </a>
+</div>
+
+<hr/>
+
+<h2 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h2>
+<br/>
+<div align="center">
+    <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,tailwind,vscode,github,git,figma" />
+    <img src="https://skillicons.dev/icons?i=react,nodejs,python,firebase,mysql,dart,linux" /><br>
+</div>
+
+<br/>
+<hr/>
+
+<div align="center">
+  <h2>🐍 My Contributions 🐍</h2>
+  <br>
+  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/Larusdi/Larusdi/output/github-contribution-grid-snake.svg" />
+</div>
+
+<br/><hr/>
+
+<h2 align="center">⚡ GitHub Stats ⚡</h2>
+<br>
+<div align="center">
+  <img width=390 src="https://github-readme-streak-stats.herokuapp.com/?user=Larusdi&theme=react&hide_border=true" />
+  <img width=390 src="https://github-readme-stats.vercel.app/api?username=Larusdi&show_icons=true&theme=react&rank_icon=github&hide_border=true" />
+  <br/><br/>
+  <img width=325 src="https://github-readme-stats.vercel.app/api/top-langs/?username=Larusdi&hide=HTML&langs_count=8&layout=compact&theme=react&hide_border=true" />
+</div>
+
+<br/><hr/>
+
+<div align="center">
+<a href="https://wa.me/6282389160273" target="_blank">
+  <img src="https://img.shields.io/badge/Contact%20via%20WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
+</a>
+</div>
+
+<br/>
