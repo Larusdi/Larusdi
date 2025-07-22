@@ -1,0 +1,48 @@
+# ⚙️ GitHub Action untuk membuat animasi kontribusi seperti ular (snake)
+name: Generate Snake
+
+# 📅 Jalankan otomatis setiap 12 jam + saat push ke branch main + manual (workflow_dispatch)
+on:
+  schedule:
+    - cron: "0 */12 * * *"  # setiap 12 jam
+  workflow_dispatch:        # bisa dijalankan manual dari tab Actions
+  push:
+    branches:
+      - main                # otomatis dijalankan saat push ke branch 'main'
+
+jobs:
+  build:
+    name: 🐍 Generate Snake Contribution
+    runs-on: ubuntu-latest
+
+    steps:
+      # 🔄 Clone repository
+      - name: Clone repo
+        uses: actions/checkout@v3
+
+      # 🐍 Buat file animasi snake (SVG dan GIF)
+      - name: Generate snake files in 'dist/' folder
+        uses: Platane/snk@v3
+        id: snake-gif
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # 📋 Cek status build
+      - name: Show build status
+        run: git status
+
+      # 🚀 Push file animasi ke branch 'output'
+      - name: Push snake files to 'output' branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "🐍 Update snake contribution animation"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
