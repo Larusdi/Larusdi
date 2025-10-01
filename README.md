@@ -54,23 +54,9 @@ Saat ini saya mengerjakan **website produksi**, **aplikasi mobile**, dan **antar
 ---
 
 ### Stack
-<div style="font-weight:700; letter-spacing:.3px; margin-bottom:12px">
-</div>
-
-<img
-  src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vite,tailwind,bootstrap&perline=9"
-  alt="FE" style="max-width:100%; margin:6px 0" />
-
-<img
-  src="https://skillicons.dev/icons?i=php,laravel,nodejs,express,mysql,postgres,mongodb,redis&perline=8"
-  alt="BE/DB" style="max-width:100%; margin:6px 0" />
-
-<img
-  src="https://skillicons.dev/icons?i=docker,nginx,linux,bash,git,github,postman,vscode,vercel,netlify,cloudflare&perline=11"
-  alt="DevOps/Tools" style="max-width:100%; margin:6px 0" />
-
-<div style="color:#9da5b4; font-size:12.5px; margin-top:10px">
-</div>
+<p align="center">
+  <img src="./assets/stack-globe.svg" width="740" alt="Rotating Stack Globe"/>
+</p>
 
 <details>
   <summary><b>Stack & Tooling</b></summary>
