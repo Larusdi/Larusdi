@@ -1,0 +1,25 @@
+name: Generate Pac-Man
+
+on:
+  schedule:
+    - cron: "0 2 * * *"   # jalan tiap hari 02:00 UTC
+  workflow_dispatch:       # bisa kamu run manual dari tab Actions
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write      # perlu untuk push ke branch output
+    steps:
+      - name: Generate Pac-Man SVG
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: Larusdi     # ganti kalau beda
+
+      - name: Publish to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist               # berisi pacman-contribution-graph*.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
