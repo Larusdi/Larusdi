@@ -1,7 +1,13 @@
 name: Generate Snake
+
 on:
-  schedule: [ { cron: "0 3 * * *" } ]    # jalan tiap hari 03:00 UTC
+  schedule:
+    - cron: "0 3 * * *"   # tiap hari 03:00 UTC
   workflow_dispatch:
+
+concurrency:
+  group: snake-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -9,13 +15,20 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Generate Snake SVG
+      - name: Generate Snake (Light + Dark)
         uses: Platane/snk@v3
         with:
           github_user_name: Larusdi
+          # kustom palet & warna snake/dots
           outputs: |
-            dist/snake.svg
-            dist/snake-dark.svg?palette=github-dark
+            dist/snake.svg?palette=github-light&color_snake=%2334d399&color_dots=%23e5e7eb,%239ca3af,%236b7280,%231f2937
+            dist/snake-dark.svg?palette=github-dark&color_snake=%23a78bfa&color_dots=%236b7280,%23374759,%231f2937,%230b0f19
+
+      - name: Upload preview artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: snake-preview
+          path: dist
 
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4
