@@ -123,12 +123,12 @@ Saat ini saya mengerjakan **website produksi**, **aplikasi mobile**, dan **antar
 
 ### Aktivitas
 <p align="center">
-  <img src="./metrics.svg?t=1" width="740" alt="GitHub Metrics">
+  <img src="https://raw.githubusercontent.com/Larusdi/Larusdi/output/snake.svg?t=1#gh-light-mode-only" alt="snake light"/>
+  <img src="https://raw.githubusercontent.com/Larusdi/Larusdi/output/snake-dark.svg?t=1#gh-dark-mode-only" alt="snake dark"/>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Larusdi/Larusdi/output/snake.svg?t=1#gh-light-mode-only" alt="snake light"/>
-  <img src="https://raw.githubusercontent.com/Larusdi/Larusdi/output/snake-dark.svg?t=1#gh-dark-mode-only" alt="snake dark"/>
+  <img src="./metrics.svg?t=1" width="740" alt="GitHub Metrics">
 </p>
 
 ---
