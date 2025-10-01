@@ -41,13 +41,14 @@ Saat ini saya mengerjakan **website produksi**, **aplikasi mobile**, dan **antar
 ### Aktivitas
 ### Pac-Man Contribution
 <p align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)"  type="image/gif"
-          srcset="https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Gambar/GIF/Skills_Animation_Dark.gif">
-  <source media="(prefers-color-scheme: light)" type="image/gif"
-          srcset="https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Gambar/GIF/Skills_Animation_White.gif">
-  <img src="https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Gambar/GIF/Skills_Animation_White.gif" width="740" alt="Tech stack animation">
-</picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" 
+            srcset="https://raw.githubusercontent.com/Larusdi/Larusdi/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" 
+            srcset="https://raw.githubusercontent.com/Larusdi/Larusdi/output/pacman-contribution-graph.svg">
+    <img alt="Pac-Man on my contribution graph" 
+         src="https://raw.githubusercontent.com/Larusdi/Larusdi/output/pacman-contribution-graph.svg">
+  </picture>
 </p>
 
 ---
