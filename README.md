@@ -3,7 +3,7 @@
 
 <!-- Side image / avatar (opsional) -->
 <div>
-  <img align="right" width="38%" src="https://avatars.githubusercontent.com/u/177787999?v=4" alt="Latif Rusdi">
+  <img align="right" width="38%" src="https://owlbertsio-resized.s3.amazonaws.com/Popper.psd.full.png">
 </div>
 
 <!-- Header name -->
