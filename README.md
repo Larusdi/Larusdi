@@ -33,7 +33,7 @@ Saat ini saya mengerjakan **website produksi**, **aplikasi mobile**, dan **antar
 
 ### Stack
 <p align="center">
-  <img src="./assets/techstack-animated.svg?t=1" alt="Animated Tech Stack" width="740">
+  <img src="./assets/techstack-spin.svg?t=1" alt="Spinning Tech Stack" width="740">
 </p>
 
 <details>
