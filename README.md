@@ -21,12 +21,13 @@
 ---
 
 ### Tentang
-Saya menikmati proses mengubah ide menjadi produk yang rapi dan cepat:
-- **Frontend** — UI bersih, mikro-interaksi, aksesibilitas diperhatikan.
-- **Backend** — API jelas, arsitektur bersih, logging & monitoring.
-- **AI** — chatbot/agent yang benar-benar membantu, bukan sekadar gimmick.
+Saya membangun produk yang terasa mulus dipakai—dari antarmuka hingga mesin di belakangnya. Fokus saya di:
 
-Saat ini fokus di **AI assistant**, **mini games**, dan **website produksi**.
+- **Web Development** — Frontend yang rapi, cepat, dan terukur; backend yang bersih dan mudah dirawat.
+- **Mobile Development** — Aplikasi Flutter yang ringan, responsif, dan konsisten di berbagai perangkat.
+- **Interactive UI Design** — Desain yang hidup dengan mikro-interaksi, hirarki visual jelas, dan aksesibilitas yang diperhatikan.
+
+Saat ini saya mengerjakan **website produksi**, **aplikasi mobile**, dan **antarmuka interaktif** yang memprioritaskan performa, kejelasan, dan pengalaman pengguna.
 
 ---
 
