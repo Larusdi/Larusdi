@@ -1,41 +1,72 @@
+name: Build Animated Tech Stack SVG
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 2 * * *"   # opsional: rebuild tiap hari
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Prepare assets folder
+        run: mkdir -p assets
+
+      - name: Fetch skillicons strip and convert to base64
+        env:
+          # EDIT DAFTAR IKON DI SINI (pisahkan koma)
+          ICONS: "html,css,js,ts,react,nextjs,vite,tailwind,bootstrap,php,laravel,nodejs,express,mysql,postgres,mongodb,redis,docker,nginx,linux,bash,git,github,postman,vscode,vercel,netlify,cloudflare"
+          PERLINE: "50"
+        run: |
+          URL="https://skillicons.dev/icons?i=${ICONS}&perline=${PERLINE}"
+          echo "Downloading $URL"
+          curl -fsSL "$URL" -o /tmp/strip.png
+          BASE64=$(base64 -w 0 /tmp/strip.png)
+          STRIP_DATA="data:image/png;base64,${BASE64}"
+          # Lebar gambar skillicons default ~1500px jika perline besar; aman pakai 1500
+          WIDTH=1500
+
+          cat > assets/techstack-animated.svg <<'SVG'
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="740" height="110" viewBox="0 0 740 110" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated Tech Stack">
   <title>Animated Tech Stack</title>
   <desc>Auto-scrolling icons of core full-stack tools</desc>
-
-  <!-- Background -->
   <rect x="0" y="0" width="740" height="110" rx="14" ry="14" fill="#0d1117" opacity="0.6"/>
   <g filter="url(#glow)">
     <rect x="1" y="1" width="738" height="108" rx="13" ry="13" fill="none" stroke="#30363d" stroke-width="1"/>
   </g>
-
   <defs>
-    <clipPath id="clip">
-      <rect x="10" y="10" width="720" height="90" rx="10" ry="10"/>
-    </clipPath>
-
-    <!-- subtle glow -->
+    <clipPath id="clip"><rect x="10" y="10" width="720" height="90" rx="10" ry="10"/></clipPath>
     <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
       <feDropShadow dx="0" dy="0" stdDeviation="2" flood-color="#ffffff" flood-opacity="0.05"/>
     </filter>
   </defs>
-
   <g clip-path="url(#clip)">
-    <!-- strip ikon panjang (duplikat untuk loop mulus) -->
     <g id="strip" transform="translate(0,0)">
-      <image
-        href="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vite,tailwind,bootstrap,php,laravel,nodejs,express,mysql,postgres,mongodb,redis,docker,nginx,linux,bash,git,github,postman,vscode,vercel,netlify,cloudflare&perline=50"
-        x="0" y="10" height="90" width="1500" preserveAspectRatio="xMinYMid meet"/>
-      <image
-        href="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vite,tailwind,bootstrap,php,laravel,nodejs,express,mysql,postgres,mongodb,redis,docker,nginx,linux,bash,git,github,postman,vscode,vercel,netlify,cloudflare&perline=50"
-        x="1500" y="10" height="90" width="1500" preserveAspectRatio="xMinYMid meet"/>
-
-      <!-- animasi geser -->
-      <animateTransform attributeName="transform"
-        type="translate"
-        from="0,0" to="-1500,0"
-        dur="14s" repeatCount="indefinite"/>
+      <!-- REPLACED_BY_SCRIPT -->
+      <animateTransform attributeName="transform" type="translate" from="0,0" to="-1500,0" dur="14s" repeatCount="indefinite"/>
     </g>
   </g>
 </svg>
-<!-- refreshed: 2025-10-01T09:18:57Z -->
+SVG
+
+          # Sisipkan dua <image> dengan data URI untuk loop mulus
+          IMAGES=$(cat <<EOF
+      <image href="${STRIP_DATA}" x="0" y="10" height="90" width="${WIDTH}" preserveAspectRatio="xMinYMid meet"/>
+      <image href="${STRIP_DATA}" x="${WIDTH}" y="10" height="90" width="${WIDTH}" preserveAspectRatio="xMinYMid meet"/>
+EOF
+)
+          sed -i "s|<!-- REPLACED_BY_SCRIPT -->|${IMAGES//|/\\|}|" assets/techstack-animated.svg
+
+      - name: Commit SVG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/techstack-animated.svg
+          git commit -m "build: update techstack animated svg" || echo "No changes"
+          git push
