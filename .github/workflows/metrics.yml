@@ -1,4 +1,4 @@
-name: Metrics
+name: metrics
 on:
   schedule: [ { cron: "30 3 * * *" } ]   # jalan tiap hari 03:30 UTC
   workflow_dispatch:                      # bisa run manual
