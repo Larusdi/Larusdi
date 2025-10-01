@@ -54,10 +54,10 @@ Saat ini saya mengerjakan **website produksi**, **aplikasi mobile**, dan **antar
 ---
 
 ### Stack
-<picture align="center">
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Gambar/GIF/Skills_Animation_Dark.gif">
   <source media="(prefers-color-scheme: light)" srcset="https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Gambar/GIF/Skills_Animation_White.gif">
-  <img align="left" alt="GIF description" src="https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Gambar/GIF/Skills_Animation_White.gif">
+  <img align="center" alt="GIF description" src="https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Gambar/GIF/Skills_Animation_White.gif">
 </picture>
 
 <details>
