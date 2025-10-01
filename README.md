@@ -169,7 +169,7 @@ Saat ini saya mengerjakan **website produksi**, **aplikasi mobile**, dan **antar
       </a>
     </td>
     <td align="center" style="padding:6px 12px;">
-      <a href="https://www.buymeacoffee.com/Kiran1689" title="Buy me a coffee" target="_blank" rel="noreferrer">
+      <a href="https://buymeacoffee.com/latifrusdi7" title="Buy me a coffee" target="_blank" rel="noreferrer">
         <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height:42px;width:190px;border-radius:8px;">
       </a>
     </td>
