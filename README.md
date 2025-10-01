@@ -54,17 +54,13 @@ Saat ini saya mengerjakan **website produksi**, **aplikasi mobile**, dan **antar
 ---
 
 ### Stack
-<picture>
-  <source media="(prefers-color-scheme: dark)"
-          type="image/gif"
-          srcset="https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Gambar/GIF/Skills_Animation_Dark.gif?v=1">
-  <source media="(prefers-color-scheme: light)"
-          type="image/gif"
-          srcset="https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Gambar/GIF/Skills_Animation_White.gif?v=1">
-  <img alt="Tech stack animation"
-       src="https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Gambar/GIF/Skills_Animation_White.gif?v=1"
-       width="740" loading="lazy">
-</picture>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="[./assets/Skills_Animation_Dark.gif](https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Gambar/GIF/Skills_Animation_Dark.gif)">
+    <source media="(prefers-color-scheme: light)" srcset="[./assets/Skills_Animation_White.gif](https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Gambar/GIF/Skills_Animation_White.gif)">
+    <img src="./assets/Skills_Animation_White.gif" width="740" alt="Tech stack animation">
+  </picture>
+</p>
 
 <details>
   <summary><b>Stack & Tooling</b></summary>
