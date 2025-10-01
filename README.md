@@ -54,23 +54,11 @@ Saat ini saya mengerjakan **website produksi**, **aplikasi mobile**, dan **antar
 ---
 
 ### Stack
-<div style="font-weight:700; letter-spacing:.3px; margin-bottom:12px">
-</div>
-
-<img
-  src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vite,tailwind,bootstrap&perline=9"
-  alt="FE" style="max-width:100%; margin:6px 0" />
-
-<img
-  src="https://skillicons.dev/icons?i=php,laravel,nodejs,express,mysql,postgres,mongodb,redis&perline=8"
-  alt="BE/DB" style="max-width:100%; margin:6px 0" />
-
-<img
-  src="https://skillicons.dev/icons?i=docker,nginx,linux,bash,git,github,postman,vscode,vercel,netlify,cloudflare&perline=11"
-  alt="DevOps/Tools" style="max-width:100%; margin:6px 0" />
-
-<div style="color:#9da5b4; font-size:12.5px; margin-top:10px">
-</div>
+<picture align="center">
+  <source media="(prefers-color-scheme: dark)" srcset="https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Gambar/GIF/Skills_Animation_Dark.gif">
+  <source media="(prefers-color-scheme: light)" srcset="https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Gambar/GIF/Skills_Animation_White.gif">
+  <img align="left" alt="GIF description" src="https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Gambar/GIF/Skills_Animation_White.gif">
+</picture>
 
 <details>
   <summary><b>Stack & Tooling</b></summary>
