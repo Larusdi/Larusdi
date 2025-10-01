@@ -21,7 +21,7 @@
 ---
 
 ### Tentang
-Saya membangun produk yang terasa mulus dipakai—dari antarmuka hingga mesin di belakangnya. Fokus saya di:
+Saya membangun produk yang terasa mulus dipakai dari antarmuka hingga mesin di belakangnya. Fokus saya di:
 
 - **Web Development** — Frontend yang rapi, cepat, dan terukur; backend yang bersih dan mudah dirawat.
 - **Mobile Development** — Aplikasi Flutter yang ringan, responsif, dan konsisten di berbagai perangkat.
