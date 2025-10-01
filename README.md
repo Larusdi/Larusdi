@@ -151,7 +151,7 @@ Saat ini saya mengerjakan **website produksi**, **aplikasi mobile**, dan **antar
   <tr>
     <td align="center" style="padding:6px 12px;">
       <a href="mailto:latifrusdi15@gmail.com" title="Email" target="_blank" rel="noreferrer">
-        <img src="https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Gambar/ICON/Portfolio%20Latif/google.png" width="40" alt="Email">
+        <img src="https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Gambar/ICON/Portfolio%20Latif/gmail.png" width="40" alt="Email">
       </a>
     </td>
     <td align="center" style="padding:6px 12px;">
