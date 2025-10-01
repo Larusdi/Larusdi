@@ -3,55 +3,34 @@
   <title>Animated Tech Stack</title>
   <desc>Auto-scrolling icons of core full-stack tools</desc>
 
-  <!-- Background (optional, subtle) -->
+  <!-- Background -->
   <rect x="0" y="0" width="740" height="110" rx="14" ry="14" fill="#0d1117" opacity="0.6"/>
   <g filter="url(#glow)">
     <rect x="1" y="1" width="738" height="108" rx="13" ry="13" fill="none" stroke="#30363d" stroke-width="1"/>
   </g>
 
-  <!-- Strip ikon: cukup edit daftar tools di URL di bawah -->
-  <!-- Tips: urutkan tool paling penting dulu -->
-<p align="center">
-  <!-- Frontend core -->
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vite,tailwind,bootstrap&perline=10" />
-  <br/>
-
-  <!-- Backend -->
-  <img src="https://skillicons.dev/icons?i=nodejs,express,php,laravel&perline=10" />
-  <br/>
-
-  <!-- Databases & Cache -->
-  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis&perline=10" />
-  <br/>
-
-  <!-- DevOps / Infra -->
-  <img src="https://skillicons.dev/icons?i=docker,nginx,linux,bash&perline=10" />
-  <br/>
-
-  <!-- Tools & Deploy -->
-  <img src="https://skillicons.dev/icons?i=git,github,postman,vscode,vercel,netlify,cloudflare&perline=10" />
-</p>
   <defs>
     <clipPath id="clip">
       <rect x="10" y="10" width="720" height="90" rx="10" ry="10"/>
     </clipPath>
 
-    <!-- Glow filter halus -->
+    <!-- subtle glow -->
     <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
       <feDropShadow dx="0" dy="0" stdDeviation="2" flood-color="#ffffff" flood-opacity="0.05"/>
     </filter>
   </defs>
 
   <g clip-path="url(#clip)">
-    <!-- Satu strip panjang ikon -->
+    <!-- strip ikon panjang (duplikat untuk loop mulus) -->
     <g id="strip" transform="translate(0,0)">
       <image
         href="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vite,tailwind,bootstrap,php,laravel,nodejs,express,mysql,postgres,mongodb,redis,docker,nginx,linux,bash,git,github,postman,vscode,vercel,netlify,cloudflare&perline=50"
         x="0" y="10" height="90" width="1500" preserveAspectRatio="xMinYMid meet"/>
-      <!-- Duplikat untuk efek loop mulus -->
       <image
         href="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vite,tailwind,bootstrap,php,laravel,nodejs,express,mysql,postgres,mongodb,redis,docker,nginx,linux,bash,git,github,postman,vscode,vercel,netlify,cloudflare&perline=50"
         x="1500" y="10" height="90" width="1500" preserveAspectRatio="xMinYMid meet"/>
+
+      <!-- animasi geser -->
       <animateTransform attributeName="transform"
         type="translate"
         from="0,0" to="-1500,0"
