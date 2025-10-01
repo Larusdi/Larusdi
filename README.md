@@ -1,5 +1,13 @@
 <!-- Banner -->
-![Latif Rusdi — Banner](https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Gambar/PNG/Portfolio%20Latif/banner-github.png)
+<div style="clear: both;"></div>
+<p align="center">
+  <img
+    src="https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Gambar/PNG/Portfolio%20Latif/banner-github.png"
+    alt="Latif Rusdi — Banner"
+    width="100%"
+    style="max-width: 1200px; border-radius: 12px; display: block;"
+  />
+</p>
 
 <!-- Side image / avatar (opsional) -->
 <div>
