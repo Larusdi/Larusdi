@@ -1,21 +1,29 @@
-<!-- Profil README — Latif Rusdi (Larusdi) -->
+<!-- Banner -->
+![Latif Rusdi — Banner](./banner.png)
+
+<!-- Side image / avatar (opsional) -->
+<div>
+  <img align="right" width="38%" src="https://avatars.githubusercontent.com/u/177787999?v=4" alt="Latif Rusdi">
+</div>
+
+<!-- Header name -->
+# <img src="https://em-content.zobj.net/source/microsoft-teams/363/smiling-face-with-sunglasses_1f60e.png" width="28"/> I'm Latif!
+*Web Developer · Mobile Developer · Interactive UI*
+
+<!-- Intro -->
+<p align="left">
+Saya membangun website produksi, aplikasi mobile, dan antarmuka interaktif yang cepat serta nyaman dipakai. Suka merancang UI yang halus, API yang rapi, dan alur kerja yang jelas.
+</p>
+
+- ✨ Belajar seumur hidup.
+- 🌱 Sedang mendalami **Flutter/Dart**, **React/Next**, dan arsitektur **API** yang bersih.
+- 📝 Menulis catatan teknis & eksperimen kecil.
+- 🤝 Terbuka untuk kolaborasi dan project seru.
+- 💼 Portfolio: **[ranah.link/latif](https://ranah.link/latif)** *(ganti dengan linkmu bila perlu)*
+- 📬 Kontak cepat: **[Email](mailto:latifrusdi15@gmail.com)** · **[Instagram](https://www.instagram.com/29_larusdi)** · **[TikTok](https://www.tiktok.com/@29_latif)** · **[WhatsApp](https://wa.me/6282389160273)**
 
 <p align="right">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=Larusdi.Larusdi" alt="visitors" />
-</p>
-
-<h1 align="center">Latif Rusdi</h1>
-<p align="center">
-  Full-Stack Developer · AI Explorer
-  <br>
-  <sub>Membangun antarmuka yang halus, backend tertata, dan pengalaman yang menyenangkan dipakai.</sub>
-</p>
-
-<p align="center">
-  <a href="mailto:latifrusdi15@gmail.com"><img alt="Mail" src="https://img.shields.io/badge/Email-111?style=for-the-badge&logo=gmail&logoColor=white"></a>
-  <a href="https://www.instagram.com/29_larusdi" target="_blank"><img alt="IG" src="https://img.shields.io/badge/Instagram-121212?style=for-the-badge&logo=instagram"></a>
-  <a href="https://www.tiktok.com/@29_latif" target="_blank"><img alt="TikTok" src="https://img.shields.io/badge/TikTok-000?style=for-the-badge&logo=tiktok"></a>
-  <a href="https://wa.me/6282389160273" target="_blank"><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-111?style=for-the-badge&logo=whatsapp&logoColor=25D366"></a>
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=Larusdi.Larusdi" alt="visitors"/>
 </p>
 
 ---
