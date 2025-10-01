@@ -3,7 +3,7 @@
 
 <!-- Side image / avatar (opsional) -->
 <div>
-  <img align="right" width="38%" src="https://owlbertsio-resized.s3.amazonaws.com/Popper.psd.full.png">
+  <img align="right" width="38%" src="https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Gambar/PNG/Portfolio%20Latif/burung-hantu.png">
 </div>
 
 <!-- Header name -->
