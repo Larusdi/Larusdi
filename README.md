@@ -1,91 +1,74 @@
+<!--
+  Profil README — Latif Rusdi (Larusdi)
+  Style: clean, premium 2025, dark-mode friendly
+-->
+
 <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=Larusdi.Larusdi" />
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Latif+Rusdi!;+Web+Developer+and+AI+Explorer;+Let’s+build+futuristic+websites+together!" />
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Geist+Mono&size=30&center=true&vCenter=true&width=700&height=60&duration=3500&pause=600&lines=Hi,+I'm+Latif+Rusdi+👋;Full-Stack+Developer+%26+AI+Explorer;Let's+build+futuristic+experiences!">
 </h1>
 
-<h3 align="center">A passionate Full Stack Developer & AI Explorer from Indonesia 🇮🇩</h3>
+<p align="center">
+  <a href="mailto:latifrusdi15@gmail.com"><img alt="Mail" src="https://img.shields.io/badge/Email-111?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="https://www.instagram.com/29_larusdi" target="_blank"><img alt="IG" src="https://img.shields.io/badge/Instagram-121212?style=for-the-badge&logo=instagram"></a>
+  <a href="https://www.tiktok.com/@29_latif" target="_blank"><img alt="TikTok" src="https://img.shields.io/badge/TikTok-000?style=for-the-badge&logo=tiktok"></a>
+  <a href="https://wa.me/6282389160273" target="_blank"><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-111?style=for-the-badge&logo=whatsapp&logoColor=25D366"></a>
+</p>
+
+<p align="center">
+  🚀 Building <b>AI assistants</b>, <b>mini games</b>, and <b>premium websites</b> •
+  🌱 Exploring <b>Flutter, Dart, LLMs</b> •
+  💬 DM me about <b>HTML/CSS/JS/Full-stack/AI</b>
+</p>
 
 ---
 
-<div align="center">
+### ⚒️ Tech Stack
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,bootstrap,vite,nodejs,express,python,firebase,mysql,git,github,vscode,figma,dart,flutter,linux&perline=10">
+</p>
 
-🔭 Currently building **AI Assistant, Mini Games & Premium Websites**  
-🌱 Exploring **Flutter, Dart, Chatbot Frameworks, and Fullstack Dev**  
-💬 Ask me about **HTML, CSS, JS, Fullstack Web Dev, or Chatbot AI**  
-⚡ Fun Fact: **Most futuristic UI/UX designs are inspired by sci-fi movies**
-
-</div>
-
----
-
-<div align="center"> 
-  <a href="mailto:latifrusdi15@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" />
-  </a>
-  <a href="https://www.instagram.com/29_larusdi" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-  </a>
-  <a href="https://www.tiktok.com/@29_latif" target="_blank">
-    <img src="https://img.shields.io/badge/TikTok-black?style=for-the-badge&logo=tiktok&logoColor=white" />
-  </a>
-  <a href="https://wa.me/6282389160273" target="_blank">
-    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
-  </a>
-</div>
+<details>
+  <summary><b>✨ Focus 2025</b></summary>
+  <br>
+  • Modern UI (iOS-style, glassmorphism, micro-interactions)<br>
+  • AI tooling (agents, RAG, chatbots, LangChain-like patterns)<br>
+  • High-perf FE (Vite, React, Astro) & clean API design
+</details>
 
 ---
 
-<h2 align="center">⚒️ Languages • Frameworks • Tools ⚒️</h2>
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,tailwind,vscode,github,git,figma" />
-  <img src="https://skillicons.dev/icons?i=react,nodejs,python,firebase,mysql,dart,linux" />
-</div>
+### 🧠 Metrics (auto-update)
+<p align="center">
+  <img src="./metrics.svg" alt="GitHub Metrics" width="740">
+</p>
 
 ---
 
-<h2 align="center">🐍 Contributions Snake</h2>
-
-<div align="center">
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/Larusdi/Larusdi/output/github-contribution-grid-snake.svg" />
-</div>
-
----
-
-<h2 align="center">📊 GitHub Stats</h2>
-
-<div align="center">
-  <img width="390" src="https://streak-stats.demolab.com/?user=Larusdi&theme=react&hide_border=true" />
-  <img width="390" src="https://github-readme-stats.vercel.app/api?username=Larusdi&show_icons=true&theme=react&rank_icon=github&hide_border=true" />
+### 📊 Stats
+<p align="center">
+  <img width="410" src="https://streak-stats.demolab.com?user=Larusdi&theme=react&hide_border=true" alt="streak"/>
+  <img width="410" src="https://github-readme-stats.vercel.app/api?username=Larusdi&show_icons=true&theme=react&rank_icon=github&hide_border=true" alt="stats"/>
   <br/><br/>
-  <img width="325" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Larusdi&hide=HTML&langs_count=8&layout=compact&theme=react&hide_border=true" />
-</div>
+  <img width="360" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Larusdi&hide=html&langs_count=8&layout=compact&theme=react&hide_border=true" alt="langs"/>
+</p>
 
 ---
 
-<h2 align="center">🚀 Featured Projects</h2>
+### 🐍 Contributions Snake
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Larusdi/Larusdi/output/snake.svg#gh-light-mode-only" alt="snake light"/>
+  <img src="https://raw.githubusercontent.com/Larusdi/Larusdi/output/snake-dark.svg#gh-dark-mode-only" alt="snake dark"/>
+</p>
 
-<div align="center">
-  <a href="https://github.com/Larusdi/portfolio-latif" target="_blank">
+---
+
+### 🚀 Featured Projects
+<p align="center">
+  <a href="https://github.com/Larusdi/portfolio-latif">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Larusdi&repo=portfolio-latif&theme=react&hide_border=true" />
   </a>
-</div>
+</p>
 
----
-
-## 📦 Credits & Tools Used
-
-> Powered by modern tools & badges:
-
-- [Visitor Badge](https://github.com/hehuapei/visitor-badge)
-- [Typing SVG](https://github.com/DenverCoder1/readme-typing-svg)
-- [Shields.io](https://github.com/alexandresanlim/Badges4-README.md-Profile)
-- [Skill Icons](https://github.com/tandpfun/skill-icons)
-- [Contribution Snake](https://github.com/Platane/snk)
-- [Streak Stats](https://github.com/DenverCoder1/github-readme-streak-stats)
-- [Readme Stats](https://github.com/anuraghazra/github-readme-stats)
-
----
-
-<p align="center"><sub>Made with ❤️ using HTML, CSS, and GitHub Actions — Latif Rusdi 2025</sub></p>
+<p align="center"><sub>Made with ❤️ via GitHub Actions • © Latif Rusdi 2025</sub></p>
