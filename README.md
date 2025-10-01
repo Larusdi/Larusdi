@@ -170,7 +170,7 @@ Saat ini saya mengerjakan **website produksi**, **aplikasi mobile**, dan **antar
       </a>
     </td>
     <td align="center" style="padding:6px 12px;">
-      <a href="https://wa.me/6282389160273" title="WhatsApp" target="_blank" rel="noreferrer">
+      <a href="https://www.facebook.com/Briefz.id" title="Facebook" target="_blank" rel="noreferrer">
         <img src="https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Gambar/ICON/Portfolio%20Latif/facebook.png" width="40" alt="WhatsApp">
       </a>
     </td>
