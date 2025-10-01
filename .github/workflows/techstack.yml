@@ -1,0 +1,22 @@
+name: Refresh Tech Stack SVG
+on:
+  schedule: [ { cron: "0 2 * * *" } ]   # tiap hari 02:00 UTC
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Touch SVG to refresh cache
+        run: |
+          echo "<!-- refreshed: $(date -u +'%Y-%m-%dT%H:%M:%SZ') -->" >> assets/techstack-animated.svg
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/techstack-animated.svg
+          git commit -m "chore(readme): refresh tech stack svg" || echo "No changes"
+          git push
