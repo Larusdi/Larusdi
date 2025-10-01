@@ -1,13 +1,18 @@
 <!--
-  Profil README — Latif Rusdi (Larusdi)
-  Style: clean, premium 2025, dark-mode friendly
+  README Profil — Latif Rusdi (Larusdi)
+  Vibe: premium, clean, dark-mode friendly, 2025
 -->
 
-<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=Larusdi.Larusdi" />
+<p align="right">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=Larusdi.Larusdi" alt="visitors badge" />
+</p>
 
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Geist+Mono&size=30&center=true&vCenter=true&width=700&height=60&duration=3500&pause=600&lines=Hi,+I'm+Latif+Rusdi+👋;Full-Stack+Developer+%26+AI+Explorer;Let's+build+futuristic+experiences!">
-</h1>
+<h1 align="center">Latif Rusdi</h1>
+<p align="center">
+  Full-Stack Developer · AI Explorer
+  <br>
+  <sub>Membangun antarmuka modern, backend bersih, dan pengalaman yang terasa “premium”.</sub>
+</p>
 
 <p align="center">
   <a href="mailto:latifrusdi15@gmail.com"><img alt="Mail" src="https://img.shields.io/badge/Email-111?style=for-the-badge&logo=gmail&logoColor=white"></a>
@@ -16,38 +21,65 @@
   <a href="https://wa.me/6282389160273" target="_blank"><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-111?style=for-the-badge&logo=whatsapp&logoColor=25D366"></a>
 </p>
 
-<p align="center">
-  🚀 Building <b>AI assistants</b>, <b>mini games</b>, and <b>premium websites</b> •
-  🌱 Exploring <b>Flutter, Dart, LLMs</b> •
-  💬 DM me about <b>HTML/CSS/JS/Full-stack/AI</b>
-</p>
+---
+
+### About
+Saya menikmati proses mengubah ide jadi produk yang halus dan cepat:
+- **Frontend**: UI modern, animasi mikro, aksesibilitas yang diperhatikan.
+- **Backend**: API rapi, arsitektur bersih, monitoring jelas.
+- **AI**: eksperimen agent/chatbot untuk memperkaya produk, bukan gimmick.
+
+Saat ini: membangun **AI assistant**, **mini-games**, dan **premium websites**.
 
 ---
 
-### 🚀 Build Stack
+### Build Stack
 <p align="center">
-  <img src="./assets/techstack-animated.svg" alt="Animated Tech Stack" width="740">
+  <!-- Animated (jika tersedia) -->
+  <img src="./assets/techstack-animated.svg?t=1" alt="Animated Tech Stack" width="740">
 </p>
 
-
 <details>
-  <summary><b>✨ Focus 2025</b></summary>
+  <summary><b>Detail stack</b></summary>
   <br>
-  • Modern UI (iOS-style, glassmorphism, micro-interactions)<br>
-  • AI tooling (agents, RAG, chatbots, LangChain-like patterns)<br>
-  • High-perf FE (Vite, React, Astro) & clean API design
+  • FE: HTML · CSS · JS/TS · React/Next · Vite · Tailwind/Bootstrap<br>
+  • BE: PHP/Laravel · Node/Express<br>
+  • DB/Cache: MySQL · Postgres · MongoDB · Redis<br>
+  • DevOps: Docker · Nginx · Linux · Bash<br>
+  • Tools/Deploy: Git · GitHub · Postman · VS Code · Vercel · Netlify · Cloudflare
 </details>
 
 ---
 
-### 🧠 Metrics (auto-update)
+### Highlights
+- Desain UI “rasa iOS” — bersih, responsif, dan nyaman dipakai lama.
+- Workflow produksi: commit rapi, CI/CD ringan, log & metrics yang bisa ditindaklanjuti.
+- Menjaga **DX** (developer experience) biar tim lain gampang ikut scale.
+
+---
+
+### Featured Projects
 <p align="center">
-  <img src="./metrics.svg?t=1" width="740" alt="GitHub Metrics">
+  <a href="https://github.com/Larusdi/portfolio-latif">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Larusdi&repo=portfolio-latif&theme=react&hide_border=true" />
+  </a>
 </p>
 
 ---
 
-### 📊 Stats
+### Activity
+<p align="center">
+  <img src="./metrics.svg?t=1" width="740" alt="GitHub Metrics">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Larusdi/Larusdi/output/snake.svg#gh-light-mode-only" alt="snake light"/>
+  <img src="https://raw.githubusercontent.com/Larusdi/Larusdi/output/snake-dark.svg#gh-dark-mode-only" alt="snake dark"/>
+</p>
+
+---
+
+### Stats (quick look)
 <p align="center">
   <img width="410" src="https://streak-stats.demolab.com?user=Larusdi&theme=react&hide_border=true" alt="streak"/>
   <img width="410" src="https://github-readme-stats.vercel.app/api?username=Larusdi&show_icons=true&theme=react&rank_icon=github&hide_border=true" alt="stats"/>
@@ -57,19 +89,7 @@
 
 ---
 
-### 🐍 Contributions Snake
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Larusdi/Larusdi/output/snake.svg#gh-light-mode-only" alt="snake light"/>
-  <img src="https://raw.githubusercontent.com/Larusdi/Larusdi/output/snake-dark.svg#gh-dark-mode-only" alt="snake dark"/>
+  <sub>Terbuka untuk kolaborasi — kirim ide atau proyek yang ingin kamu bangun.</sub><br>
+  <sub>© Latif Rusdi 2025</sub>
 </p>
-
----
-
-### 🚀 Featured Projects
-<p align="center">
-  <a href="https://github.com/Larusdi/portfolio-latif">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Larusdi&repo=portfolio-latif&theme=react&hide_border=true" />
-  </a>
-</p>
-
-<p align="center"><sub>Made with ❤️ via GitHub Actions • © Latif Rusdi 2025</sub></p>
