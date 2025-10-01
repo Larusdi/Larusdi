@@ -38,6 +38,21 @@ Saat ini saya mengerjakan **website produksi**, **aplikasi mobile**, dan **antar
 
 ---
 
+### Aktivitas
+### Pac-Man Contribution
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" 
+            srcset="https://raw.githubusercontent.com/Larusdi/Larusdi/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" 
+            srcset="https://raw.githubusercontent.com/Larusdi/Larusdi/output/pacman-contribution-graph.svg">
+    <img alt="Pac-Man on my contribution graph" 
+         src="https://raw.githubusercontent.com/Larusdi/Larusdi/output/pacman-contribution-graph.svg">
+  </picture>
+</p>
+
+---
+
 ### Stack
 <div style="font-weight:700; letter-spacing:.3px; margin-bottom:12px">
 </div>
@@ -117,21 +132,6 @@ Saat ini saya mengerjakan **website produksi**, **aplikasi mobile**, dan **antar
   <a href="https://links.larusdi.my.id">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Larusdi&repo=Ranah-Links&theme=react&hide_border=true" alt="Ranah-Links" />
   </a>
-</p>
-
----
-
-### Aktivitas
-### Pac-Man Contribution
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" 
-            srcset="https://raw.githubusercontent.com/Larusdi/Larusdi/output/pacman-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" 
-            srcset="https://raw.githubusercontent.com/Larusdi/Larusdi/output/pacman-contribution-graph.svg">
-    <img alt="Pac-Man on my contribution graph" 
-         src="https://raw.githubusercontent.com/Larusdi/Larusdi/output/pacman-contribution-graph.svg">
-  </picture>
 </p>
 
 ---
