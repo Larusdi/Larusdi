@@ -53,12 +53,6 @@ Saat ini saya mengerjakan **website produksi**, **aplikasi mobile**, dan **antar
 ---
 
 ### Stack
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="[./assets/Skills_Animation_Dark.gif](https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Gambar/GIF/Skills_Animation_Dark.gif)">
-    <source media="(prefers-color-scheme: light)" srcset="[./assets/Skills_Animation_White.gif](https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Gambar/GIF/Skills_Animation_White.gif)">
-  </picture>
-</p>
 
 <details>
   <summary><b>Stack & Tooling</b></summary>
