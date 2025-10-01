@@ -156,7 +156,7 @@ Saat ini saya mengerjakan **website produksi**, **aplikasi mobile**, dan **antar
     </td>
     <td align="center" style="padding:6px 12px;">
       <a href="https://www.instagram.com/29_larusdi" title="Instagram" target="_blank" rel="noreferrer">
-        <img src="https://skillicons.dev/icons?i=instagram" width="40" alt="Instagram">
+        <img src="https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Gambar/ICON/Portfolio%20Latif/instagram.png" width="40" alt="Instagram">
       </a>
     </td>
     <td align="center" style="padding:6px 12px;">
@@ -166,12 +166,12 @@ Saat ini saya mengerjakan **website produksi**, **aplikasi mobile**, dan **antar
     </td>
     <td align="center" style="padding:6px 12px;">
       <a href="https://www.tiktok.com/@29_latif" title="TikTok" target="_blank" rel="noreferrer">
-        <img src="https://skillicons.dev/icons?i=tiktok" width="40" alt="TikTok">
+        <img src="https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Gambar/ICON/Portfolio%20Latif/tik-tok.png" width="40" alt="TikTok">
       </a>
     </td>
     <td align="center" style="padding:6px 12px;">
       <a href="https://wa.me/6282389160273" title="WhatsApp" target="_blank" rel="noreferrer">
-        <img src="https://skillicons.dev/icons?i=whatsapp" width="40" alt="WhatsApp">
+        <img src="https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Gambar/ICON/Portfolio%20Latif/facebook.png" width="40" alt="WhatsApp">
       </a>
     </td>
   </tr>
