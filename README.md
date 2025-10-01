@@ -41,7 +41,7 @@
 
 ### 🧠 Metrics (auto-update)
 <p align="center">
-  <img src="./metrics.svg" alt="GitHub Metrics" width="740">
+  <img src="./metrics.svg?t=1" width="740" alt="GitHub Metrics">
 </p>
 
 ---
