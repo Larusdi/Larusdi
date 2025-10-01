@@ -1,5 +1,5 @@
 <!-- Banner -->
-![Latif Rusdi — Banner](./banner.png)
+![Latif Rusdi — Banner](https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Gambar/PNG/Portfolio%20Latif/banner-github.png)
 
 <!-- Side image / avatar (opsional) -->
 <div>
