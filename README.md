@@ -20,19 +20,45 @@ Saya adalah pengembang web dan mobile yang memprioritaskan kualitas pengalaman p
 - 📝 Menulis catatan teknis & eksperimen kecil.
 - 🤝 Terbuka untuk kolaborasi dan project seru.
 - 💼 Portfolio: **[portfolio.me](https://larusdi.my.id)**
-<p>
-  <a href="mailto:latifrusdi15@gmail.com">
-    <img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+
+<!-- Contact Section -->
+<div style="clear:both;"></div>
+<h2 align="center">🤝 Connect with Me</h2>
+
+<div align="center" style="margin: 6px 0 2px;">
+  <a href="mailto:latifrusdi15@gmail.com" target="_blank" rel="noreferrer"
+     style="display:inline-block;text-decoration:none;margin:0 14px" title="Email">
+    <img src="https://skillicons.dev/icons?i=gmail" width="34" alt="Email"><br>
+    <sub>Email</sub>
   </a>
-  <a href="https://www.instagram.com/29_larusdi" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-0D1117?style=for-the-badge&logo=instagram&logoColor=E4405F" alt="Instagram"/>
+  <a href="https://www.instagram.com/29_larusdi" target="_blank" rel="noreferrer"
+     style="display:inline-block;text-decoration:none;margin:0 14px" title="Instagram">
+    <img src="https://skillicons.dev/icons?i=instagram" width="34" alt="Instagram"><br>
+    <sub>Instagram</sub>
   </a>
-  <a href="https://www.tiktok.com/@29_latif" target="_blank">
-    <img src="https://img.shields.io/badge/TikTok-0D1117?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok"/>
+  <a href="https://www.tiktok.com/@29_latif" target="_blank" rel="noreferrer"
+     style="display:inline-block;text-decoration:none;margin:0 14px" title="TikTok">
+    <img src="https://skillicons.dev/icons?i=tiktok" width="34" alt="TikTok"><br>
+    <sub>TikTok</sub>
   </a>
-  <a href="https://wa.me/6282389160273" target="_blank">
-    <img src="https://img.shields.io/badge/WhatsApp-0D1117?style=for-the-badge&logo=whatsapp&logoColor=25D366" alt="WhatsApp"/>
+  <a href="https://wa.me/6282389160273" target="_blank" rel="noreferrer"
+     style="display:inline-block;text-decoration:none;margin:0 14px" title="WhatsApp">
+    <img src="https://skillicons.dev/icons?i=whatsapp" width="34" alt="WhatsApp"><br>
+    <sub>WhatsApp</sub>
   </a>
+</div>
+
+<!-- Buy me a coffee -->
+<p align="center" style="margin: 14px 0 8px;">
+  <a href="https://www.buymeacoffee.com/Kiran1689" target="_blank" rel="noreferrer">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
+         alt="Buy Me A Coffee" style="height:40px;width:200px;">
+  </a>
+</p>
+
+<!-- Footer wave -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=65&section=footer" alt="wave footer"/>
 </p>
 
 <p align="right">
