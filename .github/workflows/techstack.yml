@@ -24,7 +24,7 @@ jobs:
           set -euo pipefail
           mkdir -p assets
 
-          cat > build.js <<'NODE'
+          cat > build.mjs <<'NODE'
           import fs from 'fs';
           import https from 'https';
 
@@ -45,7 +45,7 @@ jobs:
               res.on('data', d => chunks.push(d));
               res.on('end', () => {
                 if (res.statusCode === 200) resolve(Buffer.concat(chunks));
-                else reject(new Error(`HTTP ${res.statusCode} — ${name}`));
+                else reject(new Error(`HTTP ${res.statusCode} - ${name}`));
               });
             }).on('error', reject);
           });
@@ -83,12 +83,10 @@ jobs:
 <svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Spinning Tech Stack">
   <title>Spinning Tech Stack</title>
   <desc>Ikon stack berputar membentuk cincin</desc>
-
   <rect x="0" y="0" width="${W}" height="${H}" rx="16" ry="16" fill="#0d1117" opacity="0.7"/>
   <g filter="url(#glow)">
     <rect x="1" y="1" width="${W-2}" height="${H-2}" rx="15" ry="15" fill="none" stroke="#30363d" stroke-width="1"/>
   </g>
-
   <defs>
     <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
       <feDropShadow dx="0" dy="0" stdDeviation="2" flood-color="#ffffff" flood-opacity="0.06"/>
@@ -114,8 +112,7 @@ jobs:
           })().catch(err => { console.error(err); process.exit(1); });
           NODE
 
-          node build.js
-
+          node build.mjs
       - name: Commit SVG
         run: |
           git config user.name "github-actions[bot]"
