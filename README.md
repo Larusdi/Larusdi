@@ -55,7 +55,7 @@ Saat ini saya mengerjakan **website produksi**, **aplikasi mobile**, dan **antar
 
 ### Stack
 <p align="center">
-  <img src="assets/stack-globe.svg" width="740" alt="Rotating Stack Globe"/>
+  <img src="../assets/stack-globe.svg" width="740" alt="Rotating Stack Globe"/>
 </p>
 
 <details>
