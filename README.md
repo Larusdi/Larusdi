@@ -93,7 +93,7 @@ Saat ini saya mengerjakan **website produksi**, **aplikasi mobile**, dan **antar
 
 ### Proyek Pilihan
 <p align="center">
-  <a href="[https://github.com/Larusdi/Ranah-Links](https://links.larusdi.my.id)">
+  <a href="https://links.larusdi.my.id">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Larusdi&repo=Ranah-Links&theme=react&hide_border=true" alt="Ranah-Links" />
   </a>
 </p>
