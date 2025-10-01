@@ -32,50 +32,24 @@ Saat ini saya mengerjakan **website produksi**, **aplikasi mobile**, dan **antar
 ---
 
 ### Stack
+<div style="font-weight:700; letter-spacing:.3px; margin-bottom:12px">
+  Web · Mobile · Interactive UI
+</div>
 
-<div align="center">
+<img
+  src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vite,tailwind,bootstrap&perline=9"
+  alt="FE" style="max-width:100%; margin:6px 0" />
 
-  <!-- Card -->
-  <div style="
-    display:inline-block; padding:22px 24px; border-radius:18px;
-    background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
-    box-shadow: inset 0 0 0 1px #2a313a, 0 18px 60px rgba(0,0,0,.35);
-    backdrop-filter: blur(4px);
-  ">
+<img
+  src="https://skillicons.dev/icons?i=php,laravel,nodejs,express,mysql,postgres,mongodb,redis&perline=8"
+  alt="BE/DB" style="max-width:100%; margin:6px 0" />
 
-    <!-- Title -->
-    <div style="font-weight:700; letter-spacing:.3px; margin-bottom:12px">
-      Web · Mobile · Interactive UI
-    </div>
+<img
+  src="https://skillicons.dev/icons?i=docker,nginx,linux,bash,git,github,postman,vscode,vercel,netlify,cloudflare&perline=11"
+  alt="DevOps/Tools" style="max-width:100%; margin:6px 0" />
 
-    <!-- Row 1 -->
-    <img
-      src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vite,tailwind,bootstrap&perline=9"
-      alt="FE"
-      style="max-width:100%; margin:6px 0"
-    />
-
-    <!-- Row 2 -->
-    <img
-      src="https://skillicons.dev/icons?i=php,laravel,nodejs,express,mysql,postgres,mongodb,redis&perline=8"
-      alt="BE/DB"
-      style="max-width:100%; margin:6px 0"
-    />
-
-    <!-- Row 3 -->
-    <img
-      src="https://skillicons.dev/icons?i=docker,nginx,linux,bash,git,github,postman,vscode,vercel,netlify,cloudflare&perline=11"
-      alt="DevOps/Tools"
-      style="max-width:100%; margin:6px 0"
-    />
-
-    <!-- Subnote -->
-    <div style="color:#9da5b4; font-size:12.5px; margin-top:10px">
-      Fokus: performa, aksesibilitas, dan interaksi yang halus.
-    </div>
-
-  </div>
-
+<div style="color:#9da5b4; font-size:12.5px; margin-top:10px">
+  Fokus: performa, aksesibilitas, dan interaksi yang halus.
 </div>
 
 <details>
