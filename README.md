@@ -24,9 +24,26 @@
 
 ---
 
-### ⚒️ Tech Stack
+### ⚒️ Tech Stack (Core)
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,bootstrap,vite,nodejs,express,python,firebase,mysql,git,github,vscode,figma,dart,flutter,linux&perline=10">
+  <!-- Frontend core -->
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vite,tailwind,bootstrap&perline=10" />
+  <br/>
+
+  <!-- Backend -->
+  <img src="https://skillicons.dev/icons?i=nodejs,express,php,laravel&perline=10" />
+  <br/>
+
+  <!-- Databases & Cache -->
+  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis&perline=10" />
+  <br/>
+
+  <!-- DevOps / Infra -->
+  <img src="https://skillicons.dev/icons?i=docker,nginx,linux,bash&perline=10" />
+  <br/>
+
+  <!-- Tools & Deploy -->
+  <img src="https://skillicons.dev/icons?i=git,github,postman,vscode,vercel,netlify,cloudflare&perline=10" />
 </p>
 
 <details>
