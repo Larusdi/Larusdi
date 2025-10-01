@@ -7,7 +7,7 @@
 </div>
 
 <!-- Header name -->
-# <img src="https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Gambar/GIF/emoji-keren.gif"/> I'm Latif!
+# <img src="https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Gambar/GIF/emoji-keren.gif" width="30"/> I'm Latif!
 *Web Developer · Mobile Developer · Interactive UI*
 
 <!-- Intro -->
