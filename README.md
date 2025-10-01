@@ -7,7 +7,7 @@
 </div>
 
 <!-- Header name -->
-# <img src="https://em-content.zobj.net/source/microsoft-teams/363/smiling-face-with-sunglasses_1f60e.png" width="28"/> I'm Latif!
+# <img src="https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Gambar/GIF/emoji-keren.gif"/> I'm Latif!
 *Web Developer · Mobile Developer · Interactive UI*
 
 <!-- Intro -->
