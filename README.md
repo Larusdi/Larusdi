@@ -20,7 +20,7 @@ Saya adalah pengembang web dan mobile yang memprioritaskan kualitas pengalaman p
 - 📝 Menulis catatan teknis & eksperimen kecil.
 - 🤝 Terbuka untuk kolaborasi dan project seru.
 - 💼 Portfolio: **[portfolio.me](https://larusdi.my.id)**
-- 📬 Kontak cepat: <p>
+<p>
   <a href="mailto:latifrusdi15@gmail.com">
     <img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
