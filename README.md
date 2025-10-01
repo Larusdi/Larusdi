@@ -21,46 +21,6 @@ Saya adalah pengembang web dan mobile yang memprioritaskan kualitas pengalaman p
 - 🤝 Terbuka untuk kolaborasi dan project seru.
 - 💼 Portfolio: **[portfolio.me](https://larusdi.my.id)**
 
-<!-- Contact Section -->
-<div style="clear:both;"></div>
-<h2 align="center">🤝 Connect with Me</h2>
-
-<div align="center" style="margin: 6px 0 2px;">
-  <a href="mailto:latifrusdi15@gmail.com" target="_blank" rel="noreferrer"
-     style="display:inline-block;text-decoration:none;margin:0 14px" title="Email">
-    <img src="https://skillicons.dev/icons?i=gmail" width="34" alt="Email"><br>
-    <sub>Email</sub>
-  </a>
-  <a href="https://www.instagram.com/29_larusdi" target="_blank" rel="noreferrer"
-     style="display:inline-block;text-decoration:none;margin:0 14px" title="Instagram">
-    <img src="https://skillicons.dev/icons?i=instagram" width="34" alt="Instagram"><br>
-    <sub>Instagram</sub>
-  </a>
-  <a href="https://www.tiktok.com/@29_latif" target="_blank" rel="noreferrer"
-     style="display:inline-block;text-decoration:none;margin:0 14px" title="TikTok">
-    <img src="https://skillicons.dev/icons?i=tiktok" width="34" alt="TikTok"><br>
-    <sub>TikTok</sub>
-  </a>
-  <a href="https://wa.me/6282389160273" target="_blank" rel="noreferrer"
-     style="display:inline-block;text-decoration:none;margin:0 14px" title="WhatsApp">
-    <img src="https://skillicons.dev/icons?i=whatsapp" width="34" alt="WhatsApp"><br>
-    <sub>WhatsApp</sub>
-  </a>
-</div>
-
-<!-- Buy me a coffee -->
-<p align="center" style="margin: 14px 0 8px;">
-  <a href="https://www.buymeacoffee.com/Kiran1689" target="_blank" rel="noreferrer">
-    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
-         alt="Buy Me A Coffee" style="height:40px;width:200px;">
-  </a>
-</p>
-
-<!-- Footer wave -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=65&section=footer" alt="wave footer"/>
-</p>
-
 <p align="right">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=Larusdi.Larusdi" alt="visitors"/>
 </p>
@@ -182,6 +142,45 @@ Saat ini saya mengerjakan **website produksi**, **aplikasi mobile**, dan **antar
 </p>
 
 ---
+
+<!-- Contact Section -->
+<div style="clear:both;"></div>
+<h2 align="center">🤝 CONNECT WITH ME 🤝</h2>
+
+<table align="center" style="border-collapse:collapse;">
+  <tr>
+    <td align="center" style="padding:6px 12px;">
+      <a href="mailto:latifrusdi15@gmail.com" title="Email" target="_blank" rel="noreferrer">
+        <img src="https://skillicons.dev/icons?i=gmail" width="40" alt="Email">
+      </a>
+    </td>
+    <td align="center" style="padding:6px 12px;">
+      <a href="https://www.instagram.com/29_larusdi" title="Instagram" target="_blank" rel="noreferrer">
+        <img src="https://skillicons.dev/icons?i=instagram" width="40" alt="Instagram">
+      </a>
+    </td>
+    <td align="center" style="padding:6px 12px;">
+      <a href="https://www.buymeacoffee.com/Kiran1689" title="Buy me a coffee" target="_blank" rel="noreferrer">
+        <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height:42px;width:190px;border-radius:8px;">
+      </a>
+    </td>
+    <td align="center" style="padding:6px 12px;">
+      <a href="https://www.tiktok.com/@29_latif" title="TikTok" target="_blank" rel="noreferrer">
+        <img src="https://skillicons.dev/icons?i=tiktok" width="40" alt="TikTok">
+      </a>
+    </td>
+    <td align="center" style="padding:6px 12px;">
+      <a href="https://wa.me/6282389160273" title="WhatsApp" target="_blank" rel="noreferrer">
+        <img src="https://skillicons.dev/icons?i=whatsapp" width="40" alt="WhatsApp">
+      </a>
+    </td>
+  </tr>
+</table>
+
+<!-- Footer wave -->
+<p align="center" style="margin-top:8px;">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=65&section=footer" alt="wave footer"/>
+</p>
 
 <p align="center">
   <sub>Terbuka untuk kolaborasi. Kirim ide atau ajakan membangun sesuatu yang bermanfaat.</sub><br>
