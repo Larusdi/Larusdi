@@ -16,7 +16,7 @@ Saya adalah pengembang web dan mobile yang memprioritaskan kualitas pengalaman p
 </p>
 
 - ✨ Belajar seumur hidup.
-- 🌱 Sedang mendalami **Flutter/Dart**, **React/Next**, dan arsitektur **API** yang bersih.
+- 🌱 Sedang mendalami **Flutter/Dart**, **React/Next**, **Laravel/Php**, dan arsitektur **API** yang bersih.
 - 📝 Menulis catatan teknis & eksperimen kecil.
 - 🤝 Terbuka untuk kolaborasi dan project seru.
 - 💼 Portfolio: **[portfolio.me](https://larusdi.my.id)**
