@@ -37,13 +37,49 @@ Saat ini saya mengerjakan **website produksi**, **aplikasi mobile**, dan **antar
 </p>
 
 <details>
-  <summary><b>Detail alat kerja</b></summary>
+  <summary><b>Stack & Tooling</b></summary>
   <br>
-  • FE: HTML · CSS · JS/TS · React/Next · Vite · Tailwind/Bootstrap<br>
-  • BE: PHP/Laravel · Node/Express<br>
-  • DB/Cache: MySQL · Postgres · MongoDB · Redis<br>
-  • DevOps: Docker · Nginx · Linux · Bash<br>
-  • Tools/Deploy: Git · GitHub · Postman · VS Code · Vercel · Netlify · Cloudflare
+
+  <b>Frontend</b> — React / Next.js, TypeScript, Vite, Tailwind / Bootstrap  
+  <sub>Fokus: performa, aksesibilitas, motion yang halus.</sub>  
+  <br>
+  <code>HTML</code> <code>CSS</code> <code>JavaScript</code> <code>TypeScript</code> <code>React</code> <code>Next.js</code> <code>Vite</code> <code>Tailwind</code> <code>Bootstrap</code>
+
+  <br><br>
+  <b>Backend</b> — PHP / Laravel, Node.js / Express  
+  <sub>API rapi, arsitektur bersih, autentikasi & otorisasi jelas.</sub>  
+  <br>
+  <code>PHP</code> <code>Laravel</code> <code>Node.js</code> <code>Express</code> <code>REST</code>
+
+  <br><br>
+  <b>Mobile</b> — Flutter / Dart  
+  <sub>Antarmuka konsisten lintas perangkat, animasi ringan.</sub>  
+  <br>
+  <code>Flutter</code> <code>Dart</code>
+
+  <br><br>
+  <b>Database & Cache</b> — MySQL, PostgreSQL, MongoDB, Redis  
+  <sub>Desain skema, indeks, dan query yang efisien.</sub>  
+  <br>
+  <code>MySQL</code> <code>Postgres</code> <code>MongoDB</code> <code>Redis</code>
+
+  <br><br>
+  <b>DevOps</b> — Docker, Nginx, Linux, Bash  
+  <sub>Build yang stabil, deploy yang mulus, observability dasar.</sub>  
+  <br>
+  <code>Docker</code> <code>Nginx</code> <code>Linux</code> <code>Bash</code>
+
+  <br><br>
+  <b>Quality & DX</b> — Testing, Linting, CI/CD  
+  <sub>Codebase terjaga, pipeline jelas, hasil bisa diprediksi.</sub>  
+  <br>
+  <code>Vitest/Jest</code> <code>ESLint</code> <code>Prettier</code> <code>GitHub Actions</code>
+
+  <br><br>
+  <b>Delivery</b> — Vercel, Netlify, Cloudflare  
+  <sub>Distribusi cepat, edge caching, domain & SSL rapi.</sub>  
+  <br>
+  <code>Vercel</code> <code>Netlify</code> <code>Cloudflare</code>
 </details>
 
 ---
