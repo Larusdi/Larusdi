@@ -122,6 +122,18 @@ Saat ini saya mengerjakan **website produksi**, **aplikasi mobile**, dan **antar
 ---
 
 ### Aktivitas
+### 🟡 Pac-Man Contribution
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" 
+            srcset="https://raw.githubusercontent.com/Larusdi/Larusdi/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" 
+            srcset="https://raw.githubusercontent.com/Larusdi/Larusdi/output/pacman-contribution-graph.svg">
+    <img alt="Pac-Man on my contribution graph" 
+         src="https://raw.githubusercontent.com/Larusdi/Larusdi/output/pacman-contribution-graph.svg">
+  </picture>
+</p>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/Larusdi/Larusdi/output/snake.svg#gh-light-mode-only" alt="snake light"/>
   <img src="https://raw.githubusercontent.com/Larusdi/Larusdi/output/snake-dark.svg#gh-dark-mode-only" alt="snake dark"/>
