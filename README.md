@@ -33,7 +33,6 @@ Saat ini saya mengerjakan **website produksi**, **aplikasi mobile**, dan **antar
 
 ### Stack
 <div style="font-weight:700; letter-spacing:.3px; margin-bottom:12px">
-  Web · Mobile · Interactive UI
 </div>
 
 <img
@@ -49,7 +48,6 @@ Saat ini saya mengerjakan **website produksi**, **aplikasi mobile**, dan **antar
   alt="DevOps/Tools" style="max-width:100%; margin:6px 0" />
 
 <div style="color:#9da5b4; font-size:12.5px; margin-top:10px">
-  Fokus: performa, aksesibilitas, dan interaksi yang halus.
 </div>
 
 <details>
