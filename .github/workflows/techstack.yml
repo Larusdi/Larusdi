@@ -1,9 +1,9 @@
 name: Build Spinning Tech Stack SVG
 
 on:
-  workflow_dispatch:
+  workflow_dispatch:           # bisa run manual
   schedule:
-    - cron: "0 2 * * *"   # optional: rebuild harian biar cache segar
+    - cron: "0 2 * * *"        # opsional: rebuild tiap hari 02:00 UTC
 
 jobs:
   build:
@@ -14,19 +14,20 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install Node (untuk script kecil)
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
       - name: Generate spinning SVG
         run: |
-          mkdir -p assets tmp_icons
+          mkdir -p assets
 
           cat > build.js <<'NODE'
           import fs from 'fs';
           import https from 'https';
-          // --- DAFTAR IKON (ubah sesuai kebutuhanmu) ---
+
+          // ==== EDIT daftar ikon sesuai kebutuhan ====
           const icons = [
             "html","css","js","ts","react","nextjs","vite","tailwind","bootstrap",
             "php","laravel","nodejs","express",
@@ -34,8 +35,8 @@ jobs:
             "docker","nginx","linux","bash",
             "git","github","postman","vscode","vercel","netlify","cloudflare"
           ];
+          // ===========================================
 
-          // Unduh 1 ikon skillicons (PNG) sebagai Buffer
           const fetchIcon = (name) => new Promise((resolve, reject) => {
             const url = `https://skillicons.dev/icons?i=${name}`;
             https.get(url, res => {
@@ -48,29 +49,24 @@ jobs:
             }).on('error', reject);
           });
 
-          // Utility posisi melingkar
           const polar = (cx, cy, r, angleDeg) => {
             const a = (angleDeg * Math.PI) / 180;
             return [cx + r * Math.cos(a), cy + r * Math.sin(a)];
           };
 
           (async () => {
-            // Unduh semua ikon paralel
             const bufs = await Promise.all(icons.map(fetchIcon));
             const dataUris = bufs.map(b => `data:image/png;base64,${b.toString('base64')}`);
 
-            // Kanvas SVG
             const W = 740, H = 420;
             const cx = W/2, cy = H/2;
 
-            // Konfigurasi cincin
             const outer = { n: Math.min(16, dataUris.length), r: 150, size: 44 };
-            const inner = { n: Math.min(icons.length - outer.n, 12), r: 95, size: 40 };
+            const inner = { n: Math.min(dataUris.length - outer.n, 12), r: 95, size: 40 };
 
             const outerIcons = dataUris.slice(0, outer.n);
             const innerIcons = dataUris.slice(outer.n, outer.n + inner.n);
 
-            // Bangun elemen <image> berposisi melingkar
             const placeRing = (arr, r, size, startAngle = -90) => {
               const step = 360 / arr.length;
               return arr.map((href, i) => {
@@ -85,13 +81,11 @@ jobs:
             const outerImages = placeRing(outerIcons, outer.r, outer.size);
             const innerImages = placeRing(innerIcons, inner.r, inner.size, -90 + 15);
 
-            // SVG akhir: dua grup yang berputar berlawanan arah
             const svg = `<?xml version="1.0" encoding="UTF-8"?>
 <svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Spinning Tech Stack">
   <title>Spinning Tech Stack</title>
   <desc>Ikon stack berputar membentuk cincin</desc>
 
-  <!-- Background halus -->
   <rect x="0" y="0" width="${W}" height="${H}" rx="16" ry="16" fill="#0d1117" opacity="0.7"/>
   <g filter="url(#glow)">
     <rect x="1" y="1" width="${W-2}" height="${H-2}" rx="15" ry="15" fill="none" stroke="#30363d" stroke-width="1"/>
@@ -103,13 +97,11 @@ jobs:
     </filter>
   </defs>
 
-  <!-- Outer ring -->
   <g transform="rotate(0 ${cx} ${cy})">
     ${outerImages}
     <animateTransform attributeName="transform" type="rotate" from="0 ${cx} ${cy}" to="360 ${cx} ${cy}" dur="28s" repeatCount="indefinite"/>
   </g>
 
-  <!-- Inner ring (arah berlawanan) -->
   <g transform="rotate(0 ${cx} ${cy})">
     ${innerImages}
     <animateTransform attributeName="transform" type="rotate" from="0 ${cx} ${cy}" to="-360 ${cx} ${cy}" dur="20s" repeatCount="indefinite"/>
