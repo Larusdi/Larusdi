@@ -8,18 +8,18 @@
 
 <!-- Header name -->
 # <img src="https://dqyenorycxhffqjvcoqf.supabase.co/storage/v1/object/public/Gambar/GIF/emoji-keren.gif" width="30"/> I'm Latif!
-*Web Developer · Mobile Developer · Interactive UI*
+*Web Developer · Mobile Developer · Fotografi*
 
 <!-- Intro -->
 <p align="left">
-Saya membangun website produksi, aplikasi mobile, dan antarmuka interaktif yang cepat serta nyaman dipakai. Suka merancang UI yang halus, API yang rapi, dan alur kerja yang jelas.
+Saya adalah pengembang web dan mobile yang memprioritaskan kualitas pengalaman pengguna. Saya merancang UI yang bersih, menyusun API yang terstruktur, dan memastikan proses pengembangan berjalan efisien dari awal hingga rilis.
 </p>
 
 - ✨ Belajar seumur hidup.
 - 🌱 Sedang mendalami **Flutter/Dart**, **React/Next**, dan arsitektur **API** yang bersih.
 - 📝 Menulis catatan teknis & eksperimen kecil.
 - 🤝 Terbuka untuk kolaborasi dan project seru.
-- 💼 Portfolio: **[ranah.link/latif](https://ranah.link/latif)** *(ganti dengan linkmu bila perlu)*
+- 💼 Portfolio: **[portfolio.me](https://larusdi.my.id)**
 - 📬 Kontak cepat: **[Email](mailto:latifrusdi15@gmail.com)** · **[Instagram](https://www.instagram.com/29_larusdi)** · **[TikTok](https://www.tiktok.com/@29_latif)** · **[WhatsApp](https://wa.me/6282389160273)**
 
 <p align="right">
